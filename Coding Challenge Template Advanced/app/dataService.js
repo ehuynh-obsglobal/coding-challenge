@@ -1,4 +1,4 @@
-import { setupMockFetch } from '../.vs/server/mockFetch.js';
+import { setupMockFetch } from '../server/mockFetch.js';
 
 class DataService {
     constructor() {
