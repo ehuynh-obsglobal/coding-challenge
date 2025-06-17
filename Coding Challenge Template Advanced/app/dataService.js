@@ -1,4 +1,4 @@
-import { setupMockFetch } from '../server/mockFetch.js';
+import { setupMockFetch } from '../.vs/server/mockFetch.js';
 
 class DataService {
     constructor() {
@@ -38,7 +38,7 @@ class DataService {
 
     getProjectById(id) {
         return fetch(`/api/project/${id}`, {
-            method: 'GET',
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             }
